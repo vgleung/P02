@@ -1,3 +1,3 @@
 # P02
-This is a P02 for IAT339
-Vivian Leung & Christy Chan 
+This is P02 for IAT339 D102
+Vivian Leung & Christy Chan
