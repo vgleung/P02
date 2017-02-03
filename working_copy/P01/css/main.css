@@ -61,6 +61,42 @@ a:hover, a:focus {
 	color: #C13838;
 }
 
+.grid-col-1of3 {
+	width: 100%;
+}
+
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+}
+
+[class^='grid-col-'] p {
+	margin-top: 0.2em;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+@media (min-width: 60em) {
+	.grid-col-1of3 {
+		width: 30%;
+		margin-right: 1em;
+	}
+
+	.grid-col-1of3:first-child {
+		margin-left: 0em;
+	}
+
+	.grid-col-1of3:last-child {
+		margin-right: 0em;
+	}
+}
+
 code {
 	font-family: monospace;
 	font-size: 1.2em;
