@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<title>P01: Final Deliverables</title>
+		<title>P02: Style guide</title>
 		<meta charset="utf-8">
 		<!-- CSS Sheet -->
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
@@ -73,6 +73,26 @@
 					</code>
 				</div>
 			</div>
+			<div class="grid-row">
+				<div class="grid-col-1of3">
+					<h4>Rendered element:</h4>
+					<nav class="nav-bar reserve">
+						<a href="#">Reservations</a>
+					</nav>
+				</div>
+				<div class="grid-col-1of3">
+					<h4>CSS selector:</h4>
+					<p>.nav-bar.reserve a</p>
+				</div>
+				<div class="grid-col-1of3">
+					<h4>Sample code:</h4>
+					<code>
+						&#x3C;nav class=&#x22;nav-bar reserve&#x22;&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#&#x22;&#x3E;Navigation&#x3C;/a&#x3E;<br>
+						&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/nav&#x3E;
+					</code>
+				</div>
+			</div>
 			
 			<h3>Submit and Reset Buttons For Forms</h3>
 			<div class="grid-row">
@@ -93,6 +113,29 @@
 			</div>
 			
 			<h3>Text Input Field and a Label</h3>
+			<div class="grid-row">
+				<div class="grid-col-1of3">
+					<h4>Rendered element:</h4>
+					<form>
+						<label for="first">First Name:</label>
+						<input type="text" name="first-name" id="first">
+					</form>
+				</div>
+				<div class="grid-col-1of3">
+					<h4>CSS selector:</h4>
+					<p>label</p>
+					<p>input[type="text"]</p>
+				</div>
+				<div class="grid-col-1of3">
+					<h4>Sample code:</h4>
+					<code>
+						&#x3C;form&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;label for=&#x22;first&#x22;&#x3E;First Name:&#x3C;/label&#x3E;<br>
+							&#x3C;input type=&#x22;text&#x22; name=&#x22;first-name&#x22; id=&#x22;first&#x22;&#x3E;<br>
+						&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/form&#x3E;
+					</code>
+				</div>
+			</div>
 			<div class="grid-row">
 				<div class="grid-col-1of3">
 					<h4>Rendered element:</h4>
@@ -234,12 +277,13 @@
 						<a href="#about">About</a>
 						<a href="#rates">Rates</a>
 						<a href="#games">Games</a>
-						<a href="#reservations">Reservations</a>
+						<a href="#reservations" class="reserve">Reservations</a>
 					</nav>
 				</div>
 				<div class="grid-col-1of3">
 					<h4>CSS selector:</h4>
 					<p>.nav-bar a</p>
+					<p>.nav-bar a.reserve</p>
 				</div>
 				<div class="grid-col-1of3">
 					<h4>Sample code:</h4>
@@ -248,7 +292,7 @@
 							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#about&#x22;&#x3E;About&#x3C;/a&#x3E;<br>
 							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#rates&#x22;&#x3E;Rates&#x3C;/a&#x3E;<br>
 							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#games&#x22;&#x3E;Games&#x3C;/a&#x3E;<br>
-							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#reservations&#x22;&#x3E;Reservations&#x3C;/a&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;a href=&#x22;#reservations&#x22; class=&#x22;reserve&#x22;&#x3E;Reservations&#x3C;/a&#x3E;<br>
 						&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/nav&#x3E;
 					</code>
 				</div>

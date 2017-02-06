@@ -106,8 +106,23 @@ input[type="text"] {
 	padding: 1.1em 2em;
 }
 
+.nav-bar.reserve a, .nav-bar a.reserve {
+	color: #FFFFFF;
+	-webkit-transition:background 0.5s;
+	transition: background 0.5s;
+	display: inline-block;
+	background: #E85E5E;
+	float: left;
+	padding: 1.1em 2em;
+}
+
 .nav-bar a:hover, .nav-bar a.nav-button:focus {
 	background: #3B556F;
+	color: #FFFFFF;
+}
+
+.nav-bar.reserve a:hover, .nav-bar.reserve a.nav-button:focus, .nav-bar a.reserve:hover, .nav-bar.reserve a.reserve:focus {
+	background: #C13838;
 	color: #FFFFFF;
 }
 
