@@ -96,6 +96,19 @@ input[type="text"] {
     border: #c3c3c3 solid 1px;
 }
 
+select:focus, input[type="text"]:focus {
+    outline-offset: 0px;
+    outline-color: #5786b5;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+select {
+    border: #c3c3c3 solid 1px;
+    padding: 0.35em;
+    width: 100%;
+}
+
 .nav-bar a {
 	color: #FFFFFF;
 	-webkit-transition:background 0.5s;

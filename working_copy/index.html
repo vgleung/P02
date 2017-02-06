@@ -140,21 +140,27 @@
 				<div class="grid-col-1of3">
 					<h4>Rendered element:</h4>
 					<form>
-						<label for="first">First Name:</label>
-						<input type="text" name="first-name" id="first">
+						<label for="dropdown">Type of Headsets</label>
+						<select name="dropdown" id="dropdown">
+						    <option value="oculus">Oculus Rift</option>
+						    <option value="htc">HTC Vive</option>
+						</select>
 					</form>
 				</div>
 				<div class="grid-col-1of3">
 					<h4>CSS selector:</h4>
 					<p>label</p>
-					<p>input[type="text"]</p>
+					<p>select</p>
 				</div>
 				<div class="grid-col-1of3">
 					<h4>Sample code:</h4>
 					<code>
 						&#x3C;form&#x3E;<br>
-							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;label for=&#x22;first&#x22;&#x3E;First Name:&#x3C;/label&#x3E;<br>
-							&#x3C;input type=&#x22;text&#x22; name=&#x22;first-name&#x22; id=&#x22;first&#x22;&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;label for=&#x22;dropdown&#x22;&#x3E;Type of Headsets&#x3C;/label&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;select name=&#x22;dropdown&#x22; id=&#x22;dropdown&#x22;&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    &#x3C;option value=&#x22;oculus&#x22;&#x3E;Oculus Rift&#x3C;/option&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    &#x3C;option value=&#x22;htc&#x22;&#x3E;HTC Vive&#x3C;/option&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/select&#x3E;<br>
 						&#x9;&#x9;&#x9;&#x9;&#x9;&#x3C;/form&#x3E;
 					</code>
 				</div>
