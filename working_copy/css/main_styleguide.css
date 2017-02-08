@@ -111,16 +111,6 @@ select {
     font-size: 0.85rem;
 }
 
-.nav-bar {
-	position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    width: 100%;
-    background: #2C3E50;
-    height: 51px;
-}
-
 .nav-bar a {
 	color: #FFFFFF;
 	-webkit-transition:background 0.5s;
@@ -131,11 +121,6 @@ select {
 	padding: 1.1em 2em;
 }
 
-.nav-bar a.logo {
-	padding: 0;
-	height: 50px;
-}
-
 .nav-bar.reserve a, .nav-bar a.reserve {
 	color: #FFFFFF;
 	-webkit-transition:background 0.5s;
@@ -144,10 +129,6 @@ select {
 	background: #E85E5E;
 	float: left;
 	padding: 1.1em 2em;
-}
-
-.nav-bar a.reserve {
-    float: right;
 }
 
 .nav-bar a:hover, .nav-bar a.nav-button:focus {
@@ -197,7 +178,7 @@ select {
 	color: #FFFFFF;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 100em) {
 	.nav-bar a {
 		width: 100%;
 		text-align: center;
