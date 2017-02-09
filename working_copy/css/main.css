@@ -7,7 +7,8 @@
 body {
 	font-size: 0.9rem;
 	font-size: 0.9rem;
-	padding: 0 2em;
+	margin: 3rem 1.5rem;
+    background: #EFEFEF;
 }
 
 h2 {
@@ -70,7 +71,7 @@ code {
     width: 100%;
 }
 
-a.submit-button {
+.submit-button {
 	padding: 0.8em;
 	background: #E85E5E;
 	color: #FFFFFF;
@@ -78,9 +79,12 @@ a.submit-button {
 	-webkit-transition:background 0.3s;
 	transition: background 0.3s;
 	display: inline-block;
+	border: none;
+    width: 100%;
+    margin: 1rem 0;
 }
 
-a.submit-button:hover, a.submit-button:focus  {
+.submit-button:hover, .submit-button:focus  {
 	background: #C13838;
 }
 
@@ -109,6 +113,15 @@ select {
     padding: 0.35em;
     width: 100%;
     font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+.logo img {
+    width: initial;
 }
 
 .nav-bar {
@@ -119,6 +132,7 @@ select {
     width: 100%;
     background: #2C3E50;
     height: 51px;
+    z-index: 10;
 }
 
 .nav-bar a {
@@ -160,6 +174,21 @@ select {
 	color: #FFFFFF;
 }
 
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #2C3E50;
+    height: 51px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .product {
 	margin-right: 1.1em;
 	border: #BFBFBF 1px solid;
@@ -197,18 +226,11 @@ select {
 	color: #FFFFFF;
 }
 
-@media (max-width: 40em) {
-	.nav-bar a {
-		width: 100%;
-		text-align: center;
-	}
-
-	.product {
-		width: 100%;
-		margin-bottom: 1em;
-	}
-
-	.product:last-child {
-		margin-bottom: 0em;
-	}
+.body-content {
+	display: block;
+	max-width: 1350px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #FFFFFF;
+    padding: 2rem;
 }
