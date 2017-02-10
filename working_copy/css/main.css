@@ -103,7 +103,7 @@ code {
 {	
 	width: 35%;
 	height: 100%;
-	margin: 5rem;
+	margin: 3rem;
 	display: inline-block;
 }
 
@@ -231,11 +231,14 @@ img {
 	color: #FFFFFF;
 }
 
+.container {
+	position: relative;
+	min-height: 100%;
+}
+
 footer {
-	position: fixed;
-    left: 0;
+	position: absolute;
     bottom: 0;
-    right: 0;
     width: 100%;
     background: #2C3E50;
     height: 51px;
@@ -285,10 +288,12 @@ footer .copyright {
 
 .body-content {
 	display: block;
+	position: relative;
+	min-height: 100%;
 	max-width: 1350px;
 	margin: 3rem auto 0 auto;
 	background: #FFFFFF;
-    padding: 0.3rem 2rem;
+    padding: 0.3rem 2rem 5rem;
 }
 
 
