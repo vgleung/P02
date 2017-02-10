@@ -7,7 +7,8 @@
 body {
 	font-size: 0.9rem;
 	font-size: 0.9rem;
-	margin: 3rem 1.5rem;
+	margin: 0;
+	padding: 0;
     background: #EFEFEF;
 }
 
@@ -257,8 +258,7 @@ footer .copyright {
 .body-content {
 	display: block;
 	max-width: 1350px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 3rem auto 0 auto;
 	background: #FFFFFF;
     padding: 2rem;
 }
