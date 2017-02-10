@@ -248,6 +248,13 @@ img {
 	
 }
 
+.banner .left p, .banner .right p {
+
+	text-align: right;
+	margin-right: 5rem;
+		
+}
+
 
 
 footer {
@@ -371,6 +378,10 @@ footer .copyright {
 	.banner h2 {
 		text-align: center;
 		margin-right: 0;
+	} 
+
+	.banner p {
+		font-size: 0.8rem;
 	}
 
 	.footer {

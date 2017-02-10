@@ -11,6 +11,13 @@ body {
     background: #EFEFEF;
 }
 
+h1 {
+	font-size: 2rem;
+	-webkit-margin-bottom:0.2em;
+	margin-bottom: 0.2em;
+	padding-top: 0.5em;
+}
+
 h2 {
 	-webkit-margin-bottom:0.2em;
 	margin-bottom: 0.2em;
@@ -70,6 +77,27 @@ code {
     background: #D6D6D6;
     width: 100%;
 }
+
+.price {
+	width: 100%; 
+	margin: auto;
+}
+
+.rates {
+	width: 25%; 
+	border: 1.5px solid #494949;
+    border-radius: 5px;
+    margin: 2rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.rates p {
+	color: #494949;
+	font-size: 1rem; 
+	line-height: 1rem; 
+}
+
 
 .submit-button {
 	padding: 0.8em;
@@ -234,3 +262,5 @@ footer .copyright {
 	background: #FFFFFF;
     padding: 2rem;
 }
+
+
