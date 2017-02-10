@@ -158,12 +158,27 @@ select {
     margin-bottom: 0.5rem;
 }
 
+figure {
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+
 img {
 	width: 100%;
 }
 
 .logo img {
     width: initial;
+}
+
+.game-icons img {
+	width: initial;
+}
+
+.game-icons {
+	display: inline-block;
+	float: right;
 }
 
 .nav-bar {
@@ -273,7 +288,7 @@ footer .copyright {
 	max-width: 1350px;
 	margin: 3rem auto 0 auto;
 	background: #FFFFFF;
-    padding: 2rem;
+    padding: 0.3rem 2rem;
 }
 
 
