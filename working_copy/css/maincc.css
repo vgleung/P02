@@ -1,0 +1,137 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: #494949;
+}
+
+body {
+	font-size: 0.9rem;
+	padding: 0rem;
+	margin: 0rem;
+}
+
+a {
+	text-decoration: none;
+	color: #E85E5E;
+	-webkit-transition:color 0.3s;
+	transition: color 0.3s;
+}
+
+a:hover, a:focus {
+	color: #C13838;
+}
+
+h1 {
+	-webkit-margin-bottom:0.2em;
+	margin-bottom: 0.2em;
+	padding-top: 0.5em;
+}
+
+h2 {
+	-webkit-margin-bottom:0.2em;
+	margin-bottom: 0.2em;
+	padding-top: 0.5em;
+}
+
+h3 {
+	-webkit-margin: 1em 0 0.2em;
+	margin: 1em 0 0.2em;
+	font-weight: 500;
+}
+
+h4 {
+	-webkit-margin: 0.2em 0;
+	margin: 0.2em 0;
+	font-weight: 500;
+}
+
+
+div.banner {
+	margin-top:20%;
+	padding-top: 3rem;
+	left: 0;
+	right: 0;
+	display: inline-block;
+}
+
+div.banner h1 {
+	margin: auto;
+	margin-top: 1rem;
+	color: #fff;
+	font-size: 2rem; line-height: 2rem; text-align: center;
+}
+
+.banners {
+	background: url(http://placehold.it/500x550);
+	background-attachment: fixed;
+	padding-top: 5rem;
+	padding-bottom:5rem;
+	display: inline-block;
+
+}
+
+
+.nav-bar {
+	position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: #2C3E50;
+    height: 51px;
+    z-index: 10;
+}
+
+.nav-bar a {
+	color: #FFFFFF;
+	-webkit-transition:background 0.5s;
+	transition: background 0.5s;
+	display: inline-block;
+	background: #2C3E50;
+	float: left;
+	padding: 1.1em 2em;
+}
+
+.nav-bar a.logo {
+	padding: 0;
+	height: 50px;
+}
+
+.nav-bar.reserve a, .nav-bar a.reserve {
+	color: #FFFFFF;
+	-webkit-transition:background 0.5s;
+	transition: background 0.5s;
+	display: inline-block;
+	background: #E85E5E;
+	float: left;
+	padding: 1.1em 2em;
+}
+
+.nav-bar a.reserve {
+    float: right;
+}
+
+.nav-bar a:hover, .nav-bar a.nav-button:focus {
+	background: #3B556F;
+	color: #FFFFFF;
+}
+
+.nav-bar.reserve a:hover, .nav-bar.reserve a.nav-button:focus, .nav-bar a.reserve:hover, .nav-bar.reserve a.reserve:focus {
+	background: #C13838;
+	color: #FFFFFF;
+}
+
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #2C3E50;
+    height: 51px;
+}
+
+footer .copyright {
+    text-align: center;
+    color: #FFFFFF;
+}
