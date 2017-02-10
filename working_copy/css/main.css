@@ -4,9 +4,14 @@
 	color: #494949;
 }
 
+html {
+	height: 100%;
+	min-height: 100%;
+}
+
 body {
 	font-size: 0.9rem;
-	font-size: 0.9rem;
+	height: 100%;
 	margin: 0;
 	padding: 0;
     background: #EFEFEF;
@@ -23,6 +28,7 @@ h2 {
 	-webkit-margin-bottom:0.2em;
 	margin-bottom: 0.2em;
 	padding-top: 0.5em;
+	margin-top: 0em;
 }
 
 h3 {
@@ -79,6 +85,34 @@ code {
     width: 100%;
 }
 
+.banner {
+	background: url(http://placehold.it/1800x600);
+}
+
+.banner h1, .banner h2 {
+	text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    text-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+
+.banner-content {
+	width: 25%;
+    margin: 0 auto;
+    padding: 13em 0;
+}
+
+.text-block {
+	padding: 0.8rem 2rem;
+}
+
+.text-block .submit-button {
+	float: right;
+	width: 45%;
+}
+
 .price {
 	width: 100%; 
 	margin: auto;
@@ -117,6 +151,7 @@ code {
 	padding: 0.8em;
 	background: #E85E5E;
 	color: #FFFFFF;
+	text-align: center;
 	border-radius: 7px;
 	-webkit-transition:background 0.3s;
 	transition: background 0.3s;
@@ -126,8 +161,9 @@ code {
     margin: 1rem 0;
 }
 
-.submit-button:hover, .submit-button:focus  {
+.submit-button:hover, .submit-button:focus {
 	background: #C13838;
+	color: #FFFFFF;
 }
 
 label {
@@ -232,8 +268,8 @@ img {
 }
 
 .container {
-	position: relative;
 	min-height: 100%;
+	position: relative;
 }
 
 footer {
@@ -291,9 +327,13 @@ footer .copyright {
 	position: relative;
 	min-height: 100%;
 	max-width: 1350px;
-	margin: 3rem auto 0 auto;
+	margin: 0 auto;
 	background: #FFFFFF;
-    padding: 0.3rem 2rem 5rem;
+    padding: 3.3rem 2rem 5rem;
+}
+
+.body-content.front-page {
+	padding: 1rem 2rem 5rem;
 }
 
 
