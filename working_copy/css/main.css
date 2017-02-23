@@ -277,12 +277,16 @@ footer {
     bottom: 0;
     width: 100%;
     background: #2C3E50;
-    height: 51px;
+    height: 85px;
 }
 
 footer .copyright {
     text-align: center;
-    color: #FFFFFF;
+    color: #C7C7C7;
+}
+
+footer a {
+	color: #C7C7C7;
 }
 
 div.product {
@@ -329,7 +333,7 @@ div.product {
 	max-width: 1350px;
 	margin: 0 auto;
 	background: #FFFFFF;
-    padding: 3.3rem 2rem 5rem;
+    padding: 3.3rem 2rem 7rem;
 }
 
 .body-content.front-page {
