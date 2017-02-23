@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-size: 0.9rem;
+	font-size: 0.95rem;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -118,40 +118,12 @@ code {
 	margin: auto;
 }
 
-.rates {
-	width: 25%; 
-	border: 1.5px solid #494949;
-    border-radius: 5px;
-    margin: 2rem;
-    padding: 1rem;
-    display: inline-block;
-}
-
-.rates p {
-	color: #494949;
-	font-size: 1rem; 
-	line-height: 1rem; 
-}
-
-.hours
-{	
-	width: 35%;
-	height: 100%;
-	margin: 3rem;
-	display: inline-block;
-}
-
-.hours img {
-	margin: auto;
-	height: 75%;
-}
-
-
 .submit-button {
-	padding: 0.8em;
+	padding: 0.6em;
 	background: #E85E5E;
 	color: #FFFFFF;
 	text-align: center;
+    font-size: 1.1rem;
 	border-radius: 7px;
 	-webkit-transition:background 0.3s;
 	transition: background 0.3s;
@@ -217,6 +189,32 @@ img {
 	float: right;
 }
 
+.nav-bar.style-guide-render {
+	position: relative;
+	width: initial;
+	background: none;
+}
+
+.nav-bar.style-guide-render a {
+	color: #FFFFFF;
+	-webkit-transition:background 0.5s;
+	transition: background 0.5s;
+	display: inline-block;
+	background: #2C3E50;
+	float: left;
+	padding: 1.1em 2em;
+}
+
+.nav-bar.style-guide-render.reserve a, .nav-bar.style-guide-render a.reserve {
+	color: #FFFFFF;
+	-webkit-transition:background 0.5s;
+	transition: background 0.5s;
+	display: inline-block;
+	background: #E85E5E;
+	float: left;
+	padding: 1.1em 2em;
+}
+
 .nav-bar {
 	position: fixed;
     left: 0;
@@ -224,7 +222,7 @@ img {
     right: 0;
     width: 100%;
     background: #2C3E50;
-    height: 51px;
+    height: 53px;
     z-index: 10;
 }
 
@@ -237,6 +235,8 @@ img {
 	float: left;
 	padding: 1.1em 2em;
 }
+
+
 
 .nav-bar a.logo {
 	padding: 0;
@@ -285,7 +285,7 @@ footer .copyright {
     color: #FFFFFF;
 }
 
-.product {
+div.product {
 	margin-right: 1.1em;
 	border: #BFBFBF 1px solid;
 	border-radius: 5px;
@@ -293,7 +293,7 @@ footer .copyright {
 }
 
 .price {
-	font-size: 1.25rem;
+	font-size: 1.55rem;
 	text-align: center;
 	margin-bottom: 0.5em;
 }
@@ -336,4 +336,26 @@ footer .copyright {
 	padding: 1rem 2rem 5rem;
 }
 
+.call-to-action {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: 500;
+}
 
+.game-title {
+	font-size: 1.05rem;
+	font-weight: 500;
+}
+
+.player-num {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 0.3rem;
+}
+
+.body-content.style-guide {
+	min-height: 100%;
+	max-width: 1800px;
+}

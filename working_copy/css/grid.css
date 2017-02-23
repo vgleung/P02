@@ -43,6 +43,10 @@
 	clear: both;
 }
 
+.style-guide-grid {
+	width: 31%;
+}
+
 @media (max-width: 60em) {
 	.grid-col-1of2 {
 		width: 48.9%;
@@ -82,14 +86,24 @@
 
 	.grid-col-1of2 {
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.grid-col-1of3 {
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.grid-col-1of4 {
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.game-grid {
+		margin-bottom: 1.5rem;
 	}
 
 
@@ -114,5 +128,9 @@
 
 	.text-block {
 		padding: 0;
+	}
+
+	.call-to-action {
+		width: 100%;
 	}
 }
