@@ -131,6 +131,10 @@
 		padding: 0;
 	}
 
+	.text-block h2 {
+		text-align: center;
+	}
+
 	.call-to-action {
 		width: 100%;
 	}
