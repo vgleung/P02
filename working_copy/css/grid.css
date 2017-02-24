@@ -127,6 +127,14 @@
 		margin-top: 12.5rem;
 	}
 
+	.split {
+		width: 100%;
+	}
+
+	.splittwo {
+		width: 100%;
+	}
+
 	.text-block {
 		padding: 0;
 	}
