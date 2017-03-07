@@ -242,6 +242,12 @@ figure {
 img {
 	width: 100%;
 	height: auto;
+	transition: 0.3s ease;
+    backface-visibility: hidden;
+}
+
+.image-hover:hover a img, .image-hover:focus a img {
+	opacity: 0.5;
 }
 
 .logo img {
@@ -344,12 +350,12 @@ footer {
 	position: absolute;
     bottom: 0;
     width: 100%;
-    background: #2C3E50;
     height: 85px;
 }
 
 footer .copyright {
     text-align: center;
+    font-size: 0.8rem;
     color: #C7C7C7;
 }
 
@@ -361,7 +367,7 @@ div.product {
 	margin-right: 1.1em;
 	border: #BFBFBF 1px solid;
 	border-radius: 5px;
-	padding: 0.7em;
+	padding: 0.85em;
 }
 
 .price {
