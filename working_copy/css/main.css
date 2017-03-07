@@ -404,7 +404,7 @@ div.product {
 	display: block;
 	position: relative;
 	min-height: 100%;
-	max-width: 1350px;
+	max-width: 1250px;
 	margin: 0 auto;
 	background: #FFFFFF;
     padding: 3.3rem 2rem 7rem;
@@ -436,4 +436,8 @@ div.product {
 .body-content.style-guide {
 	min-height: 100%;
 	max-width: 1800px;
+}
+
+.rates {
+	padding-top: 0;
 }
