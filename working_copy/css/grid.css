@@ -53,7 +53,7 @@
 }
 
 .style-guide-grid {
-	width: 31%;
+	width: 30%;
 }
 
 @media (max-width: 70em) {
@@ -72,6 +72,15 @@
 
 	.grid-col-1of4 {
 		width: 23.2%;
+	}
+
+	.style-guide-grid {
+		width: 27.5%;
+	}
+
+	.nav-bar.style-guide-render a {
+		width: 100%;
+		text-align: center;
 	}
 }
 
@@ -124,12 +133,6 @@
 
 	.game-grid {
 		margin-bottom: 1.5rem;
-	}
-
-
-	.nav-bar a {
-		width: 100%;
-		text-align: center;
 	}
 
 	.product {
