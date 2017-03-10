@@ -87,14 +87,22 @@ code {
     width: 100%;
 }
 
+a[href^="http://"]:after, 
+a[href^="https://"]:after {
+	  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+	  margin: 0 0 0 5px;
+}
+
+	}
+
 *[hidden] {
 	display: none;
 }
 
 /* Christy's Banner Stuff, Don't Delete!! */
 
-
-.
+/* BANNER is used for Home Banner */
+/* BANNER2 is a boxed banner for text with a border */
 
 .banner, .banner2, .bannerdetails {
   position: relative;
@@ -113,6 +121,9 @@ code {
     url("../img/cover.jpg");
    background-size: cover;
    width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+
    display: inline-block;
 }
 
@@ -139,16 +150,10 @@ code {
     
 }
 
-.details {
-	background-image: url("../img/climb.jpg");
-	width: 100%;
-	height: 20%;
-}
-
 .two {
 	background: 
     linear-gradient(
-      to top,
+      to left,
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.5)
     ),
@@ -156,23 +161,83 @@ code {
     width: 100%;
     height: 100%;
     background-size: cover;
+    padding-bottom: 5rem;
+}
 
+.two h1 {
+	padding-top: -10rem;
+}
+
+.gameone {
+	background: 
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/climb.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+
+.gametwo {
+	background: 
+    linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../img/doctor.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+.gamedetails {
+	float:left;
 
 }
 
-.split {
-	background-image: url("../img/vive.png");
-	width: 49.5%;
-	padding: 9vw 0;
+.gamedetails img {
+	display: block;
+	padding: 0rem;
+	height: 25px; 
+	width: 25px; 
+	float: left;
+	overflow: hidden;
+}
+
+.gamedetails p {
+	word-wrap: break-word;
 	text-align: left;
-
+	font-weight: 300;
+	line-height: 1.5rem; 
+	letter-spacing: 0.1rem;
 }
 
-.splittwo {
-	background-image: url("../img/occulus.jpg");
-	width: 50%;
-	padding: 9vw 0;
-	text-align: right;
+.gamedetails h2 {
+	text-align: left;
+	font-weight: 700;
+	line-height: 1rem; 
+	letter-spacing: 0.1rem;
+	padding-bottom: 1rem;
+}
+
+
+.gamedetails h3 {
+	text-align: left;
+	font-weight: 500;
+	line-height: 1rem; 
+	letter-spacing: 0.1rem;
+}
+
+.gamedetails h4 {
+	text-align: left;
+	line-height: 2rem; 
+	letter-spacing: 0.1rem;
 }
 
 .banner h1, .banner-content3 h1 {
@@ -199,6 +264,8 @@ code {
 
 .banner-content3 h1 {
 	text-align: left;
+	margin-top: -0.1rem;
+	margin-bottom: 1rem;
 }
 
 
@@ -216,16 +283,13 @@ code {
 
 .banner-content3 h3 {
 	text-align: left;
-	padding: 0rem 0rem 0rem 0rem;
+	max-width: 100px;
+	margin: 0 auto 30px;
 	line-height: 1.5rem;
 	margin-top: 10rem;
-	margin-bottom: 25rem; 
 	background: rgba(0, 0, 0, 0.45);
-  display: inline;
-  padding: 0.1rem;
-  
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+  	display: inline;
+  	padding: 0.1rem;
 }
 
 .banner-content3 h4 {
@@ -251,7 +315,6 @@ code {
     margin-top: 5rem;
     margin-bottom:5rem;
     padding: 13vw 5vw 0;
-    width: 70%;
     padding-bottom: 3vw;
 
 }
@@ -263,9 +326,65 @@ code {
     text-align: center;
 }
 
+/*homepage bannercontent2 extension*/
+.width {
+	width: 70%;
+}
+
+.aboutarea {
+	border-style: solid;
+    border-width: 5px;
+    border-color: #BDBDBD;
+    
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 0rem 0rem 35rem 0rem;
+
+    text-align: center;
+}
+
+.gameabout {
+	padding-left: 2rem;
+}
+
+.aboutarea h1 {
+	line-height: 2rem; 
+	letter-spacing: 0.1rem;
+}
+
+.aboutcontent {
+
+	margin-top: 2rem;
+	margin-bottom: 0rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.aboutcontent img {
+	padding: 2rem;
+	width: 100%;
+}
+
+.aboutcontent h1 {
+	margin-top: -1rem;
+	z-index: 10;
+}
+
+.aboutcontent p {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-weight: 300;
+	line-height: 1.5rem; 
+	letter-spacing: 0.1rem;
+}
+
 .banner-content3 {
 	padding: 5vw 5vw 0;
 	width: 90%;
+	padding-bottom: 1vw;
 }
 
 
@@ -293,6 +412,7 @@ code {
 	letter-spacing: 0.05rem;
 	font-weight: 400;
 }
+
 
 
 
@@ -401,6 +521,11 @@ img {
 	float: right;
 }
 
+.newicon {
+	float:left;
+	width: 100%;
+	padding-bottom: 1rem;
+}
 nav .nav-container {
 	display: block;
 	margin-left: auto;
