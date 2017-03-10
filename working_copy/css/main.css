@@ -529,13 +529,12 @@ nav .nav-container {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 1350px;
+	max-width: 1183px;
 }
 
 .nav-bar.style-guide-render {
 	position: relative;
 	width: initial;
-	background: none;
 }
 
 .nav-bar.style-guide-render a {
@@ -553,9 +552,12 @@ nav .nav-container {
 	-webkit-transition:background 0.5s;
 	transition: background 0.5s;
 	display: inline-block;
-	background: #E85E5E;
+	background: #2C3E50;
 	float: left;
-	padding: 1.1em 2em;
+	padding: 0.6em;
+	margin: 0.3em 0;
+	border: 2px solid #FFFFFF;
+	border-radius: 9px;
 }
 
 .nav-bar {
@@ -579,7 +581,9 @@ nav .nav-container {
 	padding: 1.1em 2em;
 }
 
-
+a.current, .nav-bar a.reserve.current {
+	background: #3B556F;
+}
 
 .nav-bar a.logo {
 	padding: 0;
@@ -591,9 +595,12 @@ nav .nav-container {
 	-webkit-transition:background 0.5s;
 	transition: background 0.5s;
 	display: inline-block;
-	background: #E85E5E;
+	background: #2C3E50;
 	float: left;
-	padding: 1.1em 2em;
+	padding: 0.6em;
+	margin: 0.3em;
+	border: 2px solid #FFFFFF;
+	border-radius: 9px;
 }
 
 .nav-bar a.reserve {
@@ -606,7 +613,7 @@ nav .nav-container {
 }
 
 .nav-bar.reserve a:hover, .nav-bar.reserve a.nav-button:focus, .nav-bar a.reserve:hover, .nav-bar.reserve a.reserve:focus {
-	background: #C13838;
+	background: #3B556F;
 	color: #FFFFFF;
 }
 

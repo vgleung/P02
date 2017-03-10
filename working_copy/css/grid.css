@@ -130,6 +130,14 @@
 		padding-bottom: 3rem;
 	}
 
+	.nav-bar {
+		height: 157px;
+	}
+
+	.nav-bar a.reserve {
+		width: 47%;
+	}
+
 	.banner {
 		margin-top: 15rem;
 		height: 80%;
